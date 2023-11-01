@@ -1,0 +1,57 @@
+.click__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.click_des {
+  max-width: 635px;
+}
+
+.click_des__title {
+  color: #828282;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 114.286% */
+}
+
+.click_des__text {
+  color: #828282;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  padding-top: 25px;
+}
+
+.click_des__btn {
+  padding: 20px 28px;
+  border-radius: 10px;
+  background-color: #828282;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px; /* 130.769% */
+  letter-spacing: 1.5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+//// ------  REsponsive -------------/////////////
+
+ @media screen and (max-width: 1000px) {
+    .click__container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .click_des__title {
+        padding-top: 40px;
+    }
+ }
